@@ -1,10 +1,10 @@
 [![License](https://img.shields.io/github/license/open-education-polito/python-interactive-book-template.svg)](https://github.com/open-education-polito/python-interactive-book-template/blob/master/LICENSE)
 
-# Status
-Under active development
-
 # Python Interactive Book Template
 > The template files for the Python interactive book
+
+# Status
+Under active development
 
 ## Images
 
