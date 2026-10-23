@@ -45,6 +45,7 @@ options(
             'allow_pairs': 'false',
             'dynamic_pages': False,
             'use_services': 'false',
+            'minimal_outside_links': 'True',
             'basecourse': project_name,
             'course_id': project_name,
             # These are used for non-dynamic books.
