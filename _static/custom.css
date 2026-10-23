@@ -1,0 +1,2 @@
+/* Hide the "Log-in to Remove Ads!" navbar message injected by the Runestone JS */
+#ad_warning { display: none; }
