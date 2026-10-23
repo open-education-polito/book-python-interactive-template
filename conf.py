@@ -161,7 +161,7 @@ html_theme_path = [str(importlib.resources.files('runestone').joinpath('common/p
 # To override individual templates from the theme, you can make a directory and add its path
 # relative to this file to the templates_path list. In it, place copies of any template files
 # you wish to override - your template file(s) will be used instead of the default ones from the theme
-#templates_path = ['_templates']
+templates_path = ['_templates']
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -216,11 +216,11 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 # Example: html_static_path =  runestone_static_dirs() + ['_static', 'other']
-html_static_path = runestone_static_dirs()
+html_static_path = runestone_static_dirs() + ['_static']
 
 # List of extra stylesheets that should be added to all html pages
 # Files must be on a path contained in html_static_path
-#setup.custom_css_files = ["sample.css", "sample2.css"]
+setup.custom_css_files = ["custom.css"]
 
 # List of extra js files that should be added to all html pages
 # Items may be a file name or a dict with properties {"file":FILENAME, "key1", "value1", "key2, "value2"...}
