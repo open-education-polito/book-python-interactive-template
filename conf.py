@@ -109,6 +109,17 @@ rst_prolog = (
 # For literate programming files, provide a convenient way to refer to a source file's name. See `runestone.lp.lp._docname_role`.
 """.. |docname| replace:: :docname:`name`
 """
+
+# Colour roles used by the chapters (e.g. :boltred:`text`), defined once here
+# instead of in every chapter. The styles live in the Runestone CSS.
+"""
+.. role:: blue
+.. role:: boltblue
+.. role:: green
+.. role:: boltgreen
+.. role:: red
+.. role:: boltred
+"""
 )
 
 # Select whether to use server-side grading where possible. Server-side grading
